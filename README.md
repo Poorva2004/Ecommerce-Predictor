@@ -18,9 +18,8 @@ An online clothing retailer runs both a mobile app and a website. The business w
 ├── app.py            # Streamlit web app for predictions
 ├── NOTEBOOK.ipynb    # EDA, feature engineering, modelling & tuning
 ├── data.csv          # Dataset (500 customers)
-├── models/
-│   ├── model.pkl     # Trained regression model
-│   └── scaler.pkl    # Fitted StandardScaler
+├── model.pkl     # Trained regression model
+│── scaler.pkl    # Fitted StandardScaler
 └── README.md
 ```
 
