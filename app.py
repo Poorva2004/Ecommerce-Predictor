@@ -2,10 +2,10 @@ import streamlit as st
 import numpy as np
 import pickle
 
-with open('models/scaler.pkl', 'rb') as scaler_file:
+with open('scaler.pkl', 'rb') as scaler_file:
     loaded_scaler = pickle.load(scaler_file)
 
-with open('models/model.pkl', 'rb') as model_file:
+with open('model.pkl', 'rb') as model_file:
     loaded_model = pickle.load(model_file)
     
     
